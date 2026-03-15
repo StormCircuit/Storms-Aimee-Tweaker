@@ -7,19 +7,19 @@ Vanilla values are listed when hovering mouse over each config item in-game.
 
 The values below are the ones exposed in-game and shown in the config UI tooltip.
 
-- **aimeeSpeed** (m/s)
-  - Default is **2.6**, vanilla is **1.3**
-- **aimeeStormDamage** (percent, 1 = 100%)
+- **aimeeSpeed** (In m/s)
+  - Vanilla is **1.3**
+- **aimeeStormDamage** (In percent, 1 = 100%)
   - Not implemented yet
-  - Default is **0.25**, vanilla is **1**
-- **aimeeRepairSpeed** (percent, 1 = 100%)
-  - Default is **0.4**, vanilla is **0.4**
-- **aimeeMiningDepth** (meters)
-  - Default is **6**, vanilla is **3**
-- **aimeeStuckTimer** (seconds)
-  - Default is **1200**, vanilla is **60**
-- **aimeeStuckSpeed** (m/s)
-  - Default is **0**, vanilla is **0.1**
-- **aimeeSearchArea** (meters)
+  - Vanilla is **1**
+- **aimeeRepairSpeed** (In percent, 1 = 100%, values over 1 appear to reset to 1.)
+  - Vanilla is **0.4**
+- **aimeeMiningDepth** (In meters)
+  - Vanilla is **3**
+- **aimeeStuckTimer** (In seconds)
+  - Vanilla is **60**
+- **aimeeStuckSpeed** (In m/s)
+  - Vanilla is **0.1**
+- **aimeeSearchArea** (In meters)
   - Range Aimee will look for ores in mining mode
-  - Default is **16**, vanilla is **16**
+  - Vanilla is **16**
