@@ -7,8 +7,8 @@
     <ProjectGuid>{81D8C460-4627-489B-8D5E-A0640866290F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>StormsAimeeBuff</RootNamespace>
-    <AssemblyName>StormsAimeeBuffMod</AssemblyName>
+    <RootNamespace>StormsAimeeTweaker</RootNamespace>
+    <AssemblyName>StormsAimeeTweaker</AssemblyName>
     <LangVersion>9.0</LangVersion>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
