@@ -1,4 +1,4 @@
-## Storm's Aimee Tweaker, written by Storm with copilot and the help of the stationeers modding community.
+## Storm's Aimee Tweaker, written by Storm with Copilot and the help of the stationeers modding community.
 
 Exposes Aimee's values in game to let users buff or nerf her.
 Vanilla values are listed when hovering mouse over each config item in-game.
