@@ -21,4 +21,4 @@ The values below are the ones exposed in-game and shown in the config UI tooltip
     aimeeSearchArea (In meters).  Range Aimee will look for ores in mining mode. Vanilla is 16
 
 
-[URL=https://github.com/StormCircuit/Storms-Aimee-Tweaker] Mod source code repo [/url]
+[URL=https://github.com/StormCircuit/Storms-Aimee-Tweaker] Mod source code repo and version changelogs [/url]
