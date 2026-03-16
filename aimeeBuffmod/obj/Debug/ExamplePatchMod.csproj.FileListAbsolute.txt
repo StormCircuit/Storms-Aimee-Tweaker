@@ -209,7 +209,7 @@ C:\Users\TJ\Documents\Modding Projects\Stationeers Mods\aimeeBuffmod\aimeeBuffmo
 C:\Users\TJ\Documents\Modding Projects\Stationeers Mods\aimeeBuffmod\aimeeBuffmod\bin\Playtesting\BepInEx.xml
 C:\Users\TJ\Documents\Modding Projects\Stationeers Mods\aimeeBuffmod\aimeeBuffmod\bin\Playtesting\MonoMod.Utils.xml
 C:\Users\TJ\Documents\Modding Projects\Stationeers Mods\aimeeBuffmod\aimeeBuffmod\bin\Playtesting\MonoMod.RuntimeDetour.xml
-C:\Users\TJ\Documents\Modding Projects\Stationeers Mods\aimeeBuffmod\Aimeebuffmod\bin\Playtesting\StormsAimeeBuffMod.dll
-C:\Users\TJ\Documents\Modding Projects\Stationeers Mods\aimeeBuffmod\Aimeebuffmod\bin\Playtesting\StormsAimeeBuffMod.pdb
-C:\Users\TJ\Documents\Modding Projects\Stationeers Mods\aimeeBuffmod\Aimeebuffmod\obj\Debug\StormsAimeeBuffMod.dll
-C:\Users\TJ\Documents\Modding Projects\Stationeers Mods\aimeeBuffmod\Aimeebuffmod\obj\Debug\StormsAimeeBuffMod.pdb
+C:\Users\TJ\Documents\Modding Projects\Stationeers Mods\aimeeBuffmod\aimeebuffmod\bin\Playtesting\StormsAimeeTweaker.dll
+C:\Users\TJ\Documents\Modding Projects\Stationeers Mods\aimeeBuffmod\aimeebuffmod\bin\Playtesting\StormsAimeeTweaker.pdb
+C:\Users\TJ\Documents\Modding Projects\Stationeers Mods\aimeeBuffmod\aimeebuffmod\obj\Debug\StormsAimeeTweaker.dll
+C:\Users\TJ\Documents\Modding Projects\Stationeers Mods\aimeeBuffmod\aimeebuffmod\obj\Debug\StormsAimeeTweaker.pdb

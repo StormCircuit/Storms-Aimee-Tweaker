@@ -8,7 +8,7 @@ using Assets.Scripts.Objects;
 
 namespace StormsAimeeBuff
 {
-    [BepInPlugin("StormsAimeeTweaker", "Storms Aimee Tweaker", "2.1.0")]
+    [BepInPlugin("StormsAimeeTweaker", "Storms Aimee Tweaker", "2.1.1.0")]
     public class aimeeBuffModPlugin : BaseUnityPlugin
     {
         public static ManualLogSource Log;
