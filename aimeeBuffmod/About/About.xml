@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="utf8"?>
 <ModMetadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>Storms Aimee Buff</Name>
+  <Name>Storms Aimee Tweaker</Name>
   <Author>StormCircuit</Author>
-  <Version>1.0</Version>
-  <Description>Mod to buff aimee and allow tweaking of her values.
-  Allows tweaking of Aimee's:
-  max speed (buffed from 1.3 to 2.6)
-  storm damage scale (buffed to survive at most 1 storm)
-  mining depth (buffed from 3m to 6m)
-  stuck timer 
-  stuck speed 
-  search area 
-  and repair speed
+  <Version>2.0</Version>
+  <Description>Mod to tweak aimee.
+    aimeeSpeed (In m/s). Vanilla is 1.3
+    aimeeStormDamage (In percent, 1 = 100%). Vanilla is 1
+    aimeeRepairSpeed (In percent, 1 = 100%, values over 1 appear to reset to 1.). Vanilla is 0.4
+    aimeeMiningDepth (In meters). Vanilla is 3
+    aimeeStuckTimer (In seconds). Vanilla is 60
+    aimeeStuckSpeed (In m/s). Vanilla is 0.1
+    aimeeSearchArea (In meters). Vanilla is 16
   </Description>
 </ModMetadata>
