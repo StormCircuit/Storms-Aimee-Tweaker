@@ -8,11 +8,12 @@ using Assets.Scripts.Objects;
 
 namespace StormsAimeeBuff
 {
-    [BepInPlugin("StormsAimeeTweaker", "Storms Aimee Tweaker", "2.1.1.0")]
+    [BepInPlugin("StormsAimeeTweaker", "Storms Aimee Tweaker", "2.2.0.0")]
     public class aimeeBuffModPlugin : BaseUnityPlugin
     {
         public static ManualLogSource Log;
         public static ConfigEntry<float> aimeeSpeed;
+        public static ConfigEntry<float> aimeeTorque;
         public static ConfigEntry<float> aimeeStormDamage;
         public static ConfigEntry<int> aimeeMiningDepth;
         public static ConfigEntry<float> aimeeStuckTimer;
@@ -25,7 +26,8 @@ namespace StormsAimeeBuff
             Log = Logger;
 
             aimeeSpeed = Config.Bind("General", "aimeeSpeed", 1.3f, new ConfigDescription("In m/s." + "\nVanilla is 1.3"));
-            aimeeStormDamage = Config.Bind("General", "aimeeStormDamage", 1.0f, new ConfigDescription("Not implemented yet." + "\nIn % where 1 = 100%. " + "\nVanilla is 1"));
+            aimeeTorque = Config.Bind("General", "aimeeTorque", 0.01f, new ConfigDescription("The torque of Aimee's motor." + "\nUnknown units." + "\nVanilla is 0.01"));
+            aimeeStormDamage = Config.Bind("General", "aimeeStormDamage", 1.0f, new ConfigDescription("Amount of storm damage Aimee takes." + "\nIn % where 1 = 100%. " + "\nVanilla is 1"));
             aimeeRepairSpeed = Config.Bind("General", "aimeeRepairSpeed", 0.4f, new ConfigDescription("In % where 1 = 100%. " + "\nVanilla is 0.4"));
             aimeeMiningDepth = Config.Bind("General", "aimeeMiningDepth", 3, new ConfigDescription("I think in meters." + "\nVanilla is 3"));
             aimeeStuckTimer = Config.Bind("General", "aimeeStuckTimer", 60f, new ConfigDescription("In seconds." + "\nVanilla is 60"));
