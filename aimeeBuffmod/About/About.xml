@@ -2,7 +2,7 @@
 <ModMetadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>Storms Aimee Tweaker</Name>
   <Author>StormCircuit</Author>
-  <Version>2.2.0.0</Version>
+  <Version>2.3.0.0</Version>
   <Description>Mod to tweak aimee.
     aimeeSpeed (In m/s). Vanilla is 1.3
     aimeeTorque (Unknown units). Vanilla is 0.01
