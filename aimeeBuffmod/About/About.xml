@@ -7,7 +7,7 @@
     aimeeSpeed (In m/s). Vanilla is 1.3
     aimeeTorque (Unknown units). Vanilla is 0.01
     aimeeStormDamage (In percent, 1 = 100%). Vanilla is 1
-    aimeeWindSpeed (In percent, 1 = 100%). Vanilla is 1
+    aimeeWindScale (In percent, 1 = 100%). Vanilla is 1
     aimeeRepairSpeed (In percent, 1 = 100%, values over 1 appear to reset to 1.). Vanilla is 0.4
     aimeeMiningDepth (In meters). Vanilla is 3
     aimeeStuckTimer (In seconds). Vanilla is 60
