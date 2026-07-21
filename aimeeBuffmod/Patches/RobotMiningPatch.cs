@@ -36,6 +36,28 @@ namespace StormsAimeeBuff
         }
     }
 
+    [HarmonyPatch(typeof(RobotMining))]
+    [HarmonyPatch("GetMineCompletionTime")]
+    public static class RobotMiningGetMineCompletionTimePatch
+    {
+        [HarmonyPostfix]
+        public static void OverrideResult(ref float __result)
+        {
+            __result = aimeeBuffModPlugin.aimeeMineCompletionTime.Value;
+        }
+    }
+
+    [HarmonyPatch(typeof(RobotMining))]
+    [HarmonyPatch("GetMineAmount")]
+    public static class RobotMiningGetMineAmountPatch
+    {
+        [HarmonyPostfix]
+        public static void OverrideResult(ref float __result)
+        {
+            __result = aimeeBuffModPlugin.aimeeMineAmount.Value;
+        }
+    }
+
     [HarmonyPatch(typeof(DynamicThing))]
     public static class DynamicThingPatcher
     {

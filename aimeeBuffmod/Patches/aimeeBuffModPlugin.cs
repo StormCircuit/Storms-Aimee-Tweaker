@@ -39,6 +39,12 @@ namespace StormsAimeeBuff
         public static ConfigEntry<float> aimeeRepairSpeed;
         public static float AimeeRepairSpeed =>
         aimeeRepairSpeed?.Value ?? 1.0f; 
+        public static ConfigEntry<float> aimeeMineCompletionTime;
+        public static float AimeeMineCompletionTime =>
+        aimeeMineCompletionTime?.Value ?? 0.0f;
+        public static ConfigEntry<float> aimeeMineAmount;
+        public static float AimeeMineAmount =>
+        aimeeMineAmount?.Value ?? 1.0f;
 
         void Awake()
         {
@@ -53,6 +59,8 @@ namespace StormsAimeeBuff
             aimeeStuckTimer = Config.Bind("General", "aimeeStuckTimer", 60f, new ConfigDescription("In seconds." + "\nVanilla is 60"));
             aimeeStuckSpeed = Config.Bind("General", "aimeeStuckSpeed", 0.1f, new ConfigDescription("I think in m/s." + "\nVanilla is 0.1"));
             aimeeSearchArea = Config.Bind("General", "aimeeSearchArea", 16, new ConfigDescription("The range aimee will look for ores in when in mining mode. I think in meters." + "\nVanilla is 16"));
+            aimeeMineCompletionTime = Config.Bind("General", "aimeeMineCompletionTime", 0f, new ConfigDescription("Aimee GetMineCompletionTime override." + "\nVanilla is 0"));
+            aimeeMineAmount = Config.Bind("General", "aimeeMineAmount", 1f, new ConfigDescription("Aimee GetMineAmount override." + "\nVanilla is 1"));
 
             //apply patching
             var harmony = new Harmony("StormsAimeeBuff");
