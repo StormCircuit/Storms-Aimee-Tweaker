@@ -59,8 +59,8 @@ namespace StormsAimeeBuff
             aimeeStuckTimer = Config.Bind("General", "aimeeStuckTimer", 60f, new ConfigDescription("In seconds." + "\nVanilla is 60"));
             aimeeStuckSpeed = Config.Bind("General", "aimeeStuckSpeed", 0.1f, new ConfigDescription("I think in m/s." + "\nVanilla is 0.1"));
             aimeeSearchArea = Config.Bind("General", "aimeeSearchArea", 16, new ConfigDescription("The range aimee will look for ores in when in mining mode. I think in meters." + "\nVanilla is 16"));
-            aimeeMineCompletionTime = Config.Bind("General", "aimeeMineCompletionTime", 0f, new ConfigDescription("Aimee GetMineCompletionTime override." + "\nVanilla is 0"));
-            aimeeMineAmount = Config.Bind("General", "aimeeMineAmount", 1f, new ConfigDescription("Aimee GetMineAmount override." + "\nVanilla is 1"));
+            aimeeMineCompletionTime = Config.Bind("General", "aimeeMineCompletionTime", 0f, new ConfigDescription("Aimee GetMineCompletionTime override. Have not tested it thoroughly." + "\nVanilla is 0"));
+            aimeeMineAmount = Config.Bind("General", "aimeeMineAmount", 1f, new ConfigDescription("Aimee GetMineAmount override. This acts as a multiplier." + "\nVanilla is 1"));
 
             //apply patching
             var harmony = new Harmony("StormsAimeeBuff");
